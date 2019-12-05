@@ -5,35 +5,35 @@ function makeBookmarksArray() {
             title: 'Yahoo',
             url: 'https://www.yahoo.com',
             description: 'Yahoo, Yahoo, and more Yahoo',
-            rating: 4
+            rating: 4,
         },
         {
             id: 2,
             title: 'CNN',
             url: 'https://www.cnn.com',
             description: 'News, news, and more news',
-            rating: 2
+            rating: 2,
         },
         {
             id: 3,
             title: 'ESPN',
             url: 'https://www.espn.com',
             description: 'Sports, sports, and more sports',
-            rating: 5
+            rating: 5,
         },
         {
             id: 4,
             title: 'Google',
             url: 'https://www.google.com',
             description: 'Search, search, and more search',
-            rating: 3
+            rating: 3,
         },
         {
             id: 5,
             title: 'Bing',
             url: 'https://www.bing.com',
             description: 'Welcome, welcome, and more welcome',
-            rating: 1
+            rating: 1,
         },
     ]
 }
