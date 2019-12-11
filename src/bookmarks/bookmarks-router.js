@@ -92,7 +92,7 @@ bookmarksRouter
     )
       .then(numRowsAffected => {
         logger.info(`Bookmark with id ${bookmark_id} deleted.`)
-        res.status(204).end()
+        res.status(202).end()
       })
       .catch(next)
   })
