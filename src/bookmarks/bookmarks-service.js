@@ -1,6 +1,6 @@
 const BookmarksService = {
     getAllBookmarks(knex) {
-      return knex.select('*').from('bookmarks')
+      return knex.select('*').from('bookmarks').orderBy('id', 'desc')
     },
     getById(knex, id) {
       return knex.from('bookmarks').select('*').where('id', id).first()
